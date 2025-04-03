@@ -1,0 +1,9 @@
+[user]
+	email = michael@mcdonnell.dk
+	name = Michael Mc Donnell
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[commit]
+	template = /home/michael/.commit-message
