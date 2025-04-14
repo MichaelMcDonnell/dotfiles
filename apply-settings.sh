@@ -56,3 +56,9 @@ gnome-extensions enable tiling-assistant@leleat-on-github
 
 rm ~/.gitconfig
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+
+rm ~/.bash_profile
+ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+
+mkdir -p ~/.local/bin
+ln -s ~/.dotfiles/nixos-switch ~/.local/bin/nixos-switch

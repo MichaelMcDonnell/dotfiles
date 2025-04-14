@@ -1,0 +1,17 @@
+#!/bin/bash
+# Switches to new NixOS configuration. If successful then it copies the new version
+# into the dotfiles repository and commits it. That way the newest NixOS configuration
+# file is always in git.
+
+sudo nixos-rebuild switch
+status=$?
+ 
+if test $status -eq 0
+then
+    echo "Updating git repository with NixOS changes..."
+    cd ~/.dotfiles
+    cp /etc/nixos/configuration.nix .
+    git add configuration.nix
+    git commit -m "Update configuration.nix"
+    git push origin
+fi
