@@ -3,9 +3,11 @@
 # into the dotfiles repository and commits it. That way the newest NixOS configuration
 # file is always in git.
 
+echo "Running nixos-rebuild switch..."
 sudo nixos-rebuild switch
 status=$?
  
+echo "Testing if nixos-rebuild was successful"
 if test $status -eq 0
 then
     echo "Updating git repository with NixOS changes..."
@@ -14,4 +16,6 @@ then
     git add configuration.nix
     git commit -m "Update configuration.nix"
     git push origin
+else
+    echo "The nixos-rebuild command failed. Skipping upload to GitHub." 
 fi
