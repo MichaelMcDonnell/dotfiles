@@ -106,6 +106,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     discord
+    calibre
     git
     gnome-tweaks
     gnomeExtensions.appindicator
