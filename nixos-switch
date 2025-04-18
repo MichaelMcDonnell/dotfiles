@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 # Switches to new NixOS configuration. If successful then it copies the new version
 # into the dotfiles repository and commits it. That way the newest NixOS configuration
 # file is always in git.
@@ -6,7 +7,7 @@
 echo "Running nixos-rebuild switch..."
 sudo nixos-rebuild switch
 status=$?
- 
+echo "The exit code was $exit_code"
 echo "Testing if nixos-rebuild was successful"
 if test $status -eq 0
 then
