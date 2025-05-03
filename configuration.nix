@@ -26,7 +26,8 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "America/New_York";
+  #time.timeZone = "America/New_York";
+  time.timeZone = "Europe/Copenhagen";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
