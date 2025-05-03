@@ -113,6 +113,7 @@
     gnomeExtensions.arcmenu
     gnomeExtensions.dash-to-panel
     gnomeExtensions.tiling-assistant
+    luanti
     signal-desktop
     vim-full
     wget
