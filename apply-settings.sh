@@ -6,6 +6,8 @@
 gsettings set org.gnome.desktop.wm.preferences button-layout 'icon:minimize,maximize,close'
 # Make the text bigger in Gnome and Firefox
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
+# Disable natural scrolling
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
 
 # Set up gnome extensions
 gnome-extensions enable dash-to-panel@jderose9.github.com
