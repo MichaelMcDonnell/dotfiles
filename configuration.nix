@@ -115,6 +115,7 @@
     gnomeExtensions.dash-to-panel
     gnomeExtensions.tiling-assistant
     luanti
+    prismlauncher
     signal-desktop
     vim-full
     wget
