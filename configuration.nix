@@ -109,6 +109,7 @@
     discord
     calibre
     git
+    gnome-sound-recorder
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.arcmenu
