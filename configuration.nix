@@ -119,6 +119,7 @@
     prismlauncher
     signal-desktop
     vim-full
+    vscode
     wget
     wl-clipboard
   ];
