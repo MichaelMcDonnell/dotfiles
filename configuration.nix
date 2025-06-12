@@ -108,7 +108,7 @@
   environment.systemPackages = with pkgs; [
     discord
     calibre
-    git
+    gitFull
     gnome-sound-recorder
     gnome-tweaks
     gnomeExtensions.appindicator
