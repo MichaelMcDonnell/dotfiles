@@ -53,8 +53,6 @@ gnome-extensions enable tiling-assistant@leleat-on-github
 # TODO: Restore Steam games from backup. First I need to force proton or it would
 #       give me the invalid platform error message. I got another error after that and
 #       then it downloaded Satisfactory instead.
-# TODO: Install Signal
-# TODO: Install Discord
 
 rm ~/.gitconfig
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
