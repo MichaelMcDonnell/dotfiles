@@ -62,3 +62,5 @@ ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 
 mkdir -p ~/.local/bin
 ln -s ~/.dotfiles/nixos-switch ~/.local/bin/nixos-switch
+ln -s ~/.dotfiles/bin/gh-update-main ~/.local/bin/gh-update-main
+ln -s ~/.dotfiles/bin/gh-update-master ~/.local/bin/gh-update-master
