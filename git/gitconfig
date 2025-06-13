@@ -5,3 +5,5 @@
 	editor = vim
 [init]
 	defaultBranch = main
+[commit]
+	template = /home/michael/.gitmessage.txt

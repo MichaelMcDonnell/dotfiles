@@ -56,6 +56,7 @@ gnome-extensions enable tiling-assistant@leleat-on-github
 
 rm ~/.gitconfig
 ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/git/gitmessage.txt ~/.gitmessage.txt
 
 rm ~/.bash_profile
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
