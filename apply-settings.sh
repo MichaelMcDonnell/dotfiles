@@ -55,7 +55,7 @@ gnome-extensions enable tiling-assistant@leleat-on-github
 #       then it downloaded Satisfactory instead.
 
 rm ~/.gitconfig
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
 
 rm ~/.bash_profile
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
