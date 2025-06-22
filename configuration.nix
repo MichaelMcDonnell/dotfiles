@@ -119,6 +119,11 @@
     prismlauncher
     signal-desktop
     vim-full
+    (vscode-with-extensions.override {
+      vscodeExtensions = with vscode-extensions; [
+        vadimcn.vscode-lldb
+      ];
+    })
     vscode
     wget
     wl-clipboard
