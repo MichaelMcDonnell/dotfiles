@@ -8,3 +8,4 @@ export PS1="\[\033[38m\]\u\[\033[32m\] \w \[\033[31m\]\`ruby -e \"print (%x{git 
 
 # Add .local/bin to the path
 export PATH="$HOME/.local/bin:$PATH"
+. "$HOME/.cargo/env"
