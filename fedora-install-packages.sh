@@ -1,1 +1,1 @@
-sudo dnf install -y uv vim
+sudo dnf install -y gitk strace uv vim
