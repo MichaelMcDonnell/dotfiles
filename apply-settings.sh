@@ -60,6 +60,8 @@ ln -s ~/.dotfiles/git/gitmessage.txt ~/.gitmessage.txt
 
 rm ~/.bash_profile
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+rm ~/.bashrc
+ln -s ~/.dotfiles/.bashrc ~/.bashrc 
 
 mkdir -p ~/.local/bin
 ln -s ~/.dotfiles/bin/nixos-switch ~/.local/bin/nixos-switch
